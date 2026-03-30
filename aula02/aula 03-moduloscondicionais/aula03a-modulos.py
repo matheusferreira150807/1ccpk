@@ -1,0 +1,16 @@
+import math
+#
+# num = int(input("digite um num:"))
+# raiz = math.sqrt(num)
+# print(f"a raiz de {num} é {raiz:.2f}")
+
+graus = 45
+radiano = graus / 180 * math.pi
+seno = math.sin(radiano)
+print(seno)
+
+import random
+num_random = random.random()
+print(num_random*10)
+
+num_random_int = random.randit(a:1, b=10)
